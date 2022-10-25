@@ -6,9 +6,9 @@ public class Scantutorial {
 	public static void main(String[] args) {
 
 		Scanner epix = new Scanner(System.in );
-		System.out.println("Please enter the first number: ");
+		System.out.println("Enter a number: ");
 		int num1 = epix.nextInt();
-		System.out.println("Please enter the second number:");
+		System.out.println("Enter the second number:");
 		int num2 = epix.nextInt();
 		System.out.println("Please enter the operator + - * /");
 		String operator = epix.next();
